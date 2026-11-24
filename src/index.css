@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  color: #242437;
+  background: #f7f8fb;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #242437;
+  --muted: #89899b;
+  --line: #ececf2;
+  --purple: #6b5ce7;
+  --purple-dark: #5747d5;
+  --purple-light: #f1efff;
+  --green: #28a879;
+  --surface: #fff;
+  --shadow: 0 8px 26px rgba(37, 34, 79, .045);
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .58; }
+a { color: inherit; text-decoration: none; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid rgba(107, 92, 231, .23); outline-offset: 2px; }
+#root { min-height: 100vh; }
